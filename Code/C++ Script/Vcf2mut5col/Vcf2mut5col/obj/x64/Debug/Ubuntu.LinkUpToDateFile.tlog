@@ -1,0 +1,1 @@
+g++ -o "/mnt/c/Users/lilab/OneDrive/BIG/程序/Linux下的C++脚本/Vcf2mut5col/Vcf2mut5col/bin/x64/Debug/Vcf2mut5col.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -pthread -std=c++11 "/mnt/c/Users/lilab/OneDrive/BIG/程序/Linux下的C++脚本/Vcf2mut5col/Vcf2mut5col/obj/x64/Debug/main.o"

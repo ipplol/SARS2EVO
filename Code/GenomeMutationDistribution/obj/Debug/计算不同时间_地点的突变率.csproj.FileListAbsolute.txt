@@ -1,0 +1,7 @@
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\计算不同时间_地点的突变率\bin\Debug\计算不同时间_地点的突变率.exe.config
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\计算不同时间_地点的突变率\bin\Debug\计算不同时间_地点的突变率.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\计算不同时间_地点的突变率\bin\Debug\计算不同时间_地点的突变率.pdb
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\计算不同时间_地点的突变率\obj\Debug\计算不同时间_地点的突变率.csprojAssemblyReference.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\计算不同时间_地点的突变率\obj\Debug\计算不同时间_地点的突变率.csproj.CoreCompileInputs.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\计算不同时间_地点的突变率\obj\Debug\计算不同时间_地点的突变率.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\计算不同时间_地点的突变率\obj\Debug\计算不同时间_地点的突变率.pdb

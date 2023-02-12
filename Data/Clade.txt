@@ -1,0 +1,7 @@
+Clade	Mut	Antibody	Neutral
+Delta_inf	452R,478K	WT convalescents	WT
+BA.1		WT convalescents,BA.1 convalescents	BA.1
+BA.1.1_inf	346K	WT convalescents,BA.1 convalescents	BA.1
+BA.2_inf	371F,408S,405H,376A	WT convalescents,BA.1 convalescents	BA.1
+BA.2.12.1_inf	371F,408S,405H,376A,452Q	WT convalescents,BA.1 convalescents	BA.1
+BA.4/5_inf	486V,452R,371F,408S,405N,376A	WT convalescents,BA.1 convalescents	BA.1

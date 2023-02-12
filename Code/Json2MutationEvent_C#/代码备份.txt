@@ -1,0 +1,327 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace Json2Mutation_Csharp
+{
+    public class Node
+    {
+        public string name;
+        public  bool IsLeaf;
+        public  List<string> Nuc_mutation = new List<string>();
+        public  List<string> Total_Nuc_mutation = new List<string>();
+        public  string CollectionDate = null;
+        public string Location;
+        public string Lineage;
+        public string accessionID="NA";
+        public  List<int> ChildernIndList = new List<int>();//子节点编号
+        public int SameSequenceNumber = 0;//和这个节点一样的叶子有多少
+    }
+    public class Metadata
+    {
+        public string name;
+        public string CollectionDate;
+        public string Location;
+        public string Lineage;
+    }
+    class Program
+    {
+        static List<Node> NodesList = new List<Node>();
+        static Dictionary<string, Metadata> MetadataDic = new Dictionary<string, Metadata>();
+
+        static bool DateCompare(string A, string B)//A>B true else false
+        {
+            int i;
+            for(i=0;i<A.Length;i++)
+            {
+                if (A[i] > B[i])
+                    return true;
+            }
+            return false;
+        }
+        static List<string> FindEarliestDate(List<string> DateList, List<string> LocationList)//从list中找出最早采样时间
+        {
+            string tmps;
+            int i, j;
+            for(i=0;i<DateList.Count;i++)
+            {
+                for(j=i+1;j<DateList.Count;j++)
+                {
+                    if(DateCompare(DateList[i],DateList[j]))
+                    {
+                        tmps = DateList[i]; DateList[i] = DateList[j];DateList[j] = tmps;
+                        tmps = LocationList[i]; LocationList[i] = LocationList[j]; LocationList[j] = tmps;
+                    }
+                }
+            }
+            List<string> RT = new List<string>();
+            RT.Add(DateList[0]);
+            RT.Add(LocationList[0]);
+            return RT;
+        }
+        static void AssignDateToNodes()//给树中间的节点分配采样时间
+        {
+            /*
+             * 树上存在完全一致的序列，这些序列难以判断发生突变，因为他们到前一个节点的距离都是0
+             * 前一个节点，也是树中间节点的突变，可以代表这些序列的突变
+             * 用这些序列的最早采样时间，作为前一个节点的采样时间
+             */
+            int i, j, k;
+            for(i=0;i<NodesList.Count;i++)
+            {
+                if(!NodesList[i].IsLeaf)
+                {
+                    List<string> DateList = new List<string>();
+                    List<string> LocationList = new List<string>();
+                    for(j=0;j<NodesList[i].ChildernIndList.Count;j++)
+                    {
+                        //该中间节点有叶子节点的子代且子代没有额外突变
+                        if (NodesList[NodesList[i].ChildernIndList[j]].IsLeaf && NodesList[NodesList[i].ChildernIndList[j]].Nuc_mutation.Count == 0)
+                            if (NodesList[NodesList[i].ChildernIndList[j]].CollectionDate != null)
+                            {
+                                DateList.Add(NodesList[NodesList[i].ChildernIndList[j]].CollectionDate);
+                                LocationList.Add(NodesList[NodesList[i].ChildernIndList[j]].Location);
+                            }
+                        NodesList[i].SameSequenceNumber = DateList.Count;
+                    }
+                    if (DateList.Count > 0)
+                    {
+                        List<string> DateLocation = FindEarliestDate(DateList,LocationList);
+                        NodesList[i].CollectionDate = DateLocation[0];
+                        NodesList[i].Location = DateLocation[1];
+                        NodesList[i].Lineage = NodesList[NodesList[i].ChildernIndList[0]].Lineage;
+                    }
+                         
+                }
+            }
+
+            return;
+        }
+        static void LeafFindMetadata()//给叶子节点找metadata
+        {
+            int i, j, k;
+            for(i=0;i<NodesList.Count;i++)
+            {
+                if(NodesList[i].IsLeaf)
+                {
+                    string[] name1 = NodesList[i].name.Split('|');
+                    if(MetadataDic.ContainsKey(name1[1]))
+                    {
+                        NodesList[i].accessionID = name1[1];
+                        NodesList[i].CollectionDate = MetadataDic[name1[1]].CollectionDate;
+                        if (NodesList[i].CollectionDate.Length == 4)
+                            NodesList[i].CollectionDate += "-99-99";
+                        NodesList[i].Lineage = MetadataDic[name1[1]].Lineage;
+                        NodesList[i].Location = MetadataDic[name1[1]].Location;
+                    }
+                }
+            }
+            return;
+        }
+        static void TreeBuild(string jsonLine, int fatherInd)
+        {
+            Node newNode = new Node();
+            int i, j, k;
+            int kuohao = 0;
+            //Console.WriteLine(jsonLine);
+
+            //---------分割序列---------
+            List<int> SplitPos = new List<int>();//直系逗号的位置
+            List<int> ChildSplitPos = new List<int>();//孩子分割位置
+            SplitPos.Add(0);
+            for (i=0;i<jsonLine.Length;i++)
+            {
+                if (kuohao==0 && jsonLine[i] == ',')
+                    SplitPos.Add(i + 1);
+                if (jsonLine[i] == '{' || jsonLine[i] == '[') kuohao++;
+                if (jsonLine[i] == '}' || jsonLine[i] == ']') kuohao--;
+            }
+            for(i=0;i<SplitPos.Count;i++)//切割序列，找突变和子代
+            {
+                j = SplitPos[i] + 1;
+                while (jsonLine[j] != '\"') j++;
+                string tag = jsonLine.Substring(SplitPos[i]+1, j - SplitPos[i]-1);
+                if(tag == "branch_attrs")
+                {
+                    string lineba1 = jsonLine.Substring(SplitPos[i] + 1, SplitPos[i + 1] - SplitPos[i] - 2);
+                    string lineba2 = lineba1.Replace('}', '{');
+                    string[] lineba3 = lineba2.Split('{');
+                    if (lineba3[4] != "\"nuc\":[]")
+                    {
+                        string lineba4 = lineba3[4].Substring(7, lineba3[4].Length - 8);
+                        string[] lineba5 = lineba4.Split(',');
+                        for (k = 0; k < lineba5.Length; k++)
+                        {
+                            newNode.Nuc_mutation.Add(lineba5[k].Substring(1, lineba5[k].Length - 2));
+                        }
+                    }
+                }
+                if(tag == "children")
+                {
+                    ChildSplitPos.Add(SplitPos[i] + 11);
+                    kuohao = 0;
+                    for(k= SplitPos[i] + 12;k< SplitPos[i+1];k++)
+                    {
+                        if (kuohao == 0 && jsonLine[k] == ',')
+                            ChildSplitPos.Add(k);
+                        if (jsonLine[k] == '{' || jsonLine[k] == '[') kuohao++;
+                        if (jsonLine[k] == '}' || jsonLine[k] == ']') kuohao--;
+                    }
+                    ChildSplitPos.Add(SplitPos[i + 1]-2);
+                }
+                if(tag == "node_attrs")
+                {
+
+                }
+                if(tag=="name")
+                {
+                    string lineba1 = jsonLine.Substring(SplitPos[i] + 1, SplitPos[i + 1] - SplitPos[i] - 2);
+                    newNode.name = lineba1.Substring(7,lineba1.Length - 8);
+                }
+            }
+
+            //---------从父节点继承突变----------
+            newNode.Total_Nuc_mutation = new List<string>(newNode.Nuc_mutation);
+            if (fatherInd != -1)
+            {
+                for (i = 0; i < NodesList[fatherInd].Total_Nuc_mutation.Count; i++)
+                    newNode.Total_Nuc_mutation.Add(NodesList[fatherInd].Total_Nuc_mutation[i]);
+            }
+
+            //--------递归-----------
+            if (ChildSplitPos.Count<=2)//没有子代
+            {
+                newNode.IsLeaf = true;
+                NodesList[fatherInd].ChildernIndList.Add(NodesList.Count);
+                NodesList.Add(newNode);
+            }
+            else//递归子代
+            {
+                newNode.IsLeaf = false;
+                if(fatherInd!=-1)
+                    NodesList[fatherInd].ChildernIndList.Add(NodesList.Count);
+                NodesList.Add(newNode);
+                for(k=0;k<ChildSplitPos.Count-1;k++)
+                {
+                    //Console.WriteLine(jsonLine.Substring(ChildSplitPos[k] + 1, ChildSplitPos[k + 1] - ChildSplitPos[k] - 1));
+                    TreeBuild(jsonLine.Substring(ChildSplitPos[k] + 2, ChildSplitPos[k + 1] - ChildSplitPos[k] - 3), NodesList.Count - 1);
+                }
+            }
+            return;
+        }
+        static void MutationEventCal(string jsfile)
+        {
+            FileStream fs = new FileStream(jsfile, FileMode.Open);
+            TextReader read = new StreamReader(fs);
+            //StreamReader read = new StreamReader(jsfile);
+            StreamWriter write = new StreamWriter(jsfile + ".mutevent");
+            StringBuilder strBuilder = new StringBuilder();
+            Console.WriteLine(strBuilder.MaxCapacity);
+            var clen = 1024 * 1024;
+            var buffer = new Char[clen];
+            var count = read.Read(buffer, 0, clen);
+            while (count > 0)
+            {
+                var str = new string(buffer, 0, count);
+                strBuilder.Append(str);
+                count = read.Read(buffer, 0, clen);
+            }
+            read.Close();
+            read.Dispose();
+            Console.WriteLine("Read Json Done, String length:");
+            Console.WriteLine(strBuilder.Capacity);
+
+            string line = strBuilder.ToString(0,2000000000);
+            int i, j, k;
+            int kuohao = 0;//处于括号的层数
+            int start = 0;
+            int end = line.Length - 1;
+            while (start != line.Length)//locate the start pos of the tree
+            {
+                if (line.Substring(start, 7) == "\"tree\":" && kuohao == 1)
+                    break;
+                if (line[start] == '{') kuohao++;
+                if (line[start] == '}') kuohao--;
+                start++;
+            }
+
+            kuohao = 0;
+            while (end != 0)//locate the ending position
+            {
+                if (end < line.Length - 7 && line.Substring(end, 7) == "\"name\":" && kuohao == 2)
+                    break;
+                if (line[end] == '{') kuohao--;
+                if (line[end] == '}') kuohao++;
+                end--;
+            }
+
+            start += 21;
+            end -= 4;
+
+            TreeBuild(line.Substring(start,end-start+1), -1);
+            LeafFindMetadata();//给叶子节点找metadata
+            AssignDateToNodes();//给树中间的节点分配采样时间
+
+            //-------------------------输出结果------------------------
+            write.Write("Sample\tAccessionID\tOriginalMut\tNewMut\tLineage\tCollectionDate\tLocation\tSameSeqNumber\n");
+            for (i=0;i<NodesList.Count;i++)
+            {
+                if((NodesList[i].IsLeaf || NodesList[i].SameSequenceNumber > 0) && NodesList[i].Nuc_mutation.Count == 1)
+                {
+                    string output = NodesList[i].name;
+                    output += "\t" + NodesList[i].accessionID;
+                    string mutation = "";
+                    for (j = 0; j < NodesList[i].Total_Nuc_mutation.Count; j++)
+                        mutation += NodesList[i].Total_Nuc_mutation[j] + " ";
+                    if (mutation != "")
+                        mutation = mutation.Substring(0,mutation.Length - 1);
+                    output += "\t" + mutation;
+                    output += "\t" + NodesList[i].Nuc_mutation[0];
+                    output += "\t" + NodesList[i].Lineage;
+                    output += "\t" + NodesList[i].CollectionDate;
+                    output += "\t" + NodesList[i].Location;
+                    output += "\t" + Convert.ToString(NodesList[i].SameSequenceNumber);
+                    write.WriteLine(output);
+                }
+            }
+            read.Close();
+            write.Close();
+            return;
+        }
+        static void ReadMetadata()
+        {
+            string file = "//NAS8500/g/VariationMutation/回复突变/iqtreePopulation20220729/Linux/metadata.tsv";
+            StreamReader read = new StreamReader(file);
+            string line = read.ReadLine();
+            line = read.ReadLine();
+            int i, j, k;
+            while(line!=null)
+            {
+                string[] line1 = line.Split('\t');
+                Metadata newm = new Metadata();
+                newm.name = line1[0];
+                newm.Lineage = line1[4];
+                newm.CollectionDate = line1[10];
+                string[] line2 = line1[11].Split('/');
+                k = line2[0].Length - 1;
+                while (line2[0][k] == ' ') k--;
+                newm.Location = line2[0].Substring(0, k+1);
+                if(line1[1]!="null" && line1[1] != "")
+                    MetadataDic.Add(line1[1], newm);
+                if (line1[3] != "null" && line1[3] != "" && line1[3] != " ")
+                    MetadataDic.Add(line1[3], newm);
+                line = read.ReadLine();
+            }
+            Console.WriteLine("Read Metadata Done");
+        }
+        static void Main(string[] args)
+        {
+            //ReadMetadata();
+            MutationEventCal("//NAS8500/g/VariationMutation/VirusAntibodyEscape/MutationRate/MAT.json");
+            return;
+        }
+    }
+}

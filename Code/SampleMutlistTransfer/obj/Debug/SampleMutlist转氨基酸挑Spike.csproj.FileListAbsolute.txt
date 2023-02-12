@@ -1,0 +1,7 @@
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\SampleMutlist转氨基酸挑Spike\bin\Debug\SampleMutlist转氨基酸挑Spike.exe.config
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\SampleMutlist转氨基酸挑Spike\bin\Debug\SampleMutlist转氨基酸挑Spike.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\SampleMutlist转氨基酸挑Spike\bin\Debug\SampleMutlist转氨基酸挑Spike.pdb
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\SampleMutlist转氨基酸挑Spike\obj\Debug\SampleMutlist转氨基酸挑Spike.csprojAssemblyReference.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\SampleMutlist转氨基酸挑Spike\obj\Debug\SampleMutlist转氨基酸挑Spike.csproj.CoreCompileInputs.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\SampleMutlist转氨基酸挑Spike\obj\Debug\SampleMutlist转氨基酸挑Spike.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\SampleMutlist转氨基酸挑Spike\obj\Debug\SampleMutlist转氨基酸挑Spike.pdb

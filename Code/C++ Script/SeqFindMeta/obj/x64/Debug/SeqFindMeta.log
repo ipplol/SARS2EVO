@@ -1,0 +1,14 @@
+﻿  正在启动远程生成
+  正在编译源:
+  main.cpp
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(40,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(43,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(37,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(37,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(102,41): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(117,41): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(50,9): warning : unused variable ‘i’ [-Wunused-variable]
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(50,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\main.cpp(154,1): warning : control reaches end of non-void function [-Wreturn-type]
+  正在链接对象
+  SeqFindMeta.vcxproj -> G:\VariationMutation\病毒逃逸预测\Fitness\SelectiveCoEfficient\SeqFindMeta\bin\x64\Debug\SeqFindMeta.out

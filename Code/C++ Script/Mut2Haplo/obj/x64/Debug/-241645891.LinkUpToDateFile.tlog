@@ -1,0 +1,1 @@
+g++ -o "/home/mawt/projects/Mut2Haplo/bin/x64/Debug/Mut2Haplo.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/mawt/projects/Mut2Haplo/obj/x64/Debug/main.o

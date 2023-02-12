@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸", "不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸.csproj", "{7EF2FCDD-53CA-4B4D-AEB7-AEF22FD688AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF2FCDD-53CA-4B4D-AEB7-AEF22FD688AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF2FCDD-53CA-4B4D-AEB7-AEF22FD688AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF2FCDD-53CA-4B4D-AEB7-AEF22FD688AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF2FCDD-53CA-4B4D-AEB7-AEF22FD688AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4319FF8B-CA03-48E6-994D-C1121D369DF9}
+	EndGlobalSection
+EndGlobal

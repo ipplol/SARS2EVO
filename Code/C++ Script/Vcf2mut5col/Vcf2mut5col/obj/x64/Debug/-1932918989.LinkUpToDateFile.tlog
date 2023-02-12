@@ -1,0 +1,1 @@
+g++ -o "/home/mawentai/APP/CPlusPlusShell/Vcf2mut5col/bin/x64/Debug/Vcf2mut5col.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -pthread -std=c++11 /home/mawentai/APP/CPlusPlusShell/Vcf2mut5col/obj/x64/Debug/main.o

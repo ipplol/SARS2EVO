@@ -1,0 +1,7 @@
+C:\Users\lilab\OneDrive\BIG\程序\统计工具\计算轮廓系数 评价聚类好坏\bin\Debug\计算轮廓系数 评价聚类好坏.exe.config
+C:\Users\lilab\OneDrive\BIG\程序\统计工具\计算轮廓系数 评价聚类好坏\bin\Debug\计算轮廓系数 评价聚类好坏.exe
+C:\Users\lilab\OneDrive\BIG\程序\统计工具\计算轮廓系数 评价聚类好坏\bin\Debug\计算轮廓系数 评价聚类好坏.pdb
+C:\Users\lilab\OneDrive\BIG\程序\统计工具\计算轮廓系数 评价聚类好坏\obj\Debug\计算轮廓系数 评价聚类好坏.csprojAssemblyReference.cache
+C:\Users\lilab\OneDrive\BIG\程序\统计工具\计算轮廓系数 评价聚类好坏\obj\Debug\计算轮廓系数 评价聚类好坏.csproj.CoreCompileInputs.cache
+C:\Users\lilab\OneDrive\BIG\程序\统计工具\计算轮廓系数 评价聚类好坏\obj\Debug\计算轮廓系数 评价聚类好坏.exe
+C:\Users\lilab\OneDrive\BIG\程序\统计工具\计算轮廓系数 评价聚类好坏\obj\Debug\计算轮廓系数 评价聚类好坏.pdb

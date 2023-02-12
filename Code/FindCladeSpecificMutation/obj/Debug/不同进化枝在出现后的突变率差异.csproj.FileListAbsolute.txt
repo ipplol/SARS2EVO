@@ -1,0 +1,14 @@
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\bin\Debug\不同进化枝在出现后的突变率差异.exe.config
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\bin\Debug\不同进化枝在出现后的突变率差异.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\bin\Debug\不同进化枝在出现后的突变率差异.pdb
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\obj\Debug\不同进化枝在出现后的突变率差异.csprojAssemblyReference.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\obj\Debug\不同进化枝在出现后的突变率差异.csproj.CoreCompileInputs.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\obj\Debug\不同进化枝在出现后的突变率差异.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\obj\Debug\不同进化枝在出现后的突变率差异.pdb
+C:\Users\10754\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\bin\Debug\不同进化枝在出现后的突变率差异.exe.config
+C:\Users\10754\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\bin\Debug\不同进化枝在出现后的突变率差异.exe
+C:\Users\10754\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\bin\Debug\不同进化枝在出现后的突变率差异.pdb
+C:\Users\10754\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\obj\Debug\不同进化枝在出现后的突变率差异.csprojAssemblyReference.cache
+C:\Users\10754\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\obj\Debug\不同进化枝在出现后的突变率差异.csproj.CoreCompileInputs.cache
+C:\Users\10754\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\obj\Debug\不同进化枝在出现后的突变率差异.exe
+C:\Users\10754\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝在出现后的突变率差异\obj\Debug\不同进化枝在出现后的突变率差异.pdb

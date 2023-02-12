@@ -1,0 +1,14 @@
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\bin\Debug\SampleMutlist过滤高质量.exe.config
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\bin\Debug\SampleMutlist过滤高质量.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\bin\Debug\SampleMutlist过滤高质量.pdb
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\obj\Debug\SampleMutlist过滤高质量.csprojAssemblyReference.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\obj\Debug\SampleMutlist过滤高质量.csproj.CoreCompileInputs.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\obj\Debug\SampleMutlist过滤高质量.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\obj\Debug\SampleMutlist过滤高质量.pdb
+W:\SARS2EVO\Usher1128\Code\SampleMutlistFilterAndRandomPick\bin\Debug\SampleMutlist过滤高质量.exe.config
+W:\SARS2EVO\Usher1128\Code\SampleMutlistFilterAndRandomPick\bin\Debug\SampleMutlist过滤高质量.exe
+W:\SARS2EVO\Usher1128\Code\SampleMutlistFilterAndRandomPick\bin\Debug\SampleMutlist过滤高质量.pdb
+W:\SARS2EVO\Usher1128\Code\SampleMutlistFilterAndRandomPick\obj\Debug\SampleMutlist过滤高质量.csprojAssemblyReference.cache
+W:\SARS2EVO\Usher1128\Code\SampleMutlistFilterAndRandomPick\obj\Debug\SampleMutlist过滤高质量.csproj.CoreCompileInputs.cache
+W:\SARS2EVO\Usher1128\Code\SampleMutlistFilterAndRandomPick\obj\Debug\SampleMutlist过滤高质量.exe
+W:\SARS2EVO\Usher1128\Code\SampleMutlistFilterAndRandomPick\obj\Debug\SampleMutlist过滤高质量.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMutlist转氨基酸挑Spike", "SampleMutlist转氨基酸挑Spike.csproj", "{619A7D21-3FC6-4ECF-9752-CA60E38A9109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{619A7D21-3FC6-4ECF-9752-CA60E38A9109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619A7D21-3FC6-4ECF-9752-CA60E38A9109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619A7D21-3FC6-4ECF-9752-CA60E38A9109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619A7D21-3FC6-4ECF-9752-CA60E38A9109}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF9B6642-FCDA-44E2-B8FD-9199890D8FEF}
+	EndGlobalSection
+EndGlobal

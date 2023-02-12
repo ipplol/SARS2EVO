@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMutlist过滤高质量", "SampleMutlist过滤高质量.csproj", "{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}.Debug|x64.ActiveCfg = Debug|x64
+		{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}.Debug|x64.Build.0 = Debug|x64
+		{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}.Release|x64.ActiveCfg = Release|x64
+		{DE9D4920-7E0B-42E1-BD79-2951392AFC9B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2D4AEA8-29EC-40C7-973A-F7C7A3A5BB18}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+g++ -o "/mnt/g/VariationMutation/VirusAntibodyEscape/LinuxPipeline/AntibodySpectrum/Script/CalAntibodyPressure/bin/x64/Debug/CalAntibodyPressure.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /mnt/g/VariationMutation/VirusAntibodyEscape/LinuxPipeline/AntibodySpectrum/Script/CalAntibodyPressure/obj/x64/Debug/main.o

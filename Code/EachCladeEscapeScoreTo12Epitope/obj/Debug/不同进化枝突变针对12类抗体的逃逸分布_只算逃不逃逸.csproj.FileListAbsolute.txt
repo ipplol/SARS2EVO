@@ -1,0 +1,7 @@
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸\bin\Debug\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸.exe.config
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸\bin\Debug\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸\bin\Debug\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸.pdb
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸\obj\Debug\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸.csprojAssemblyReference.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸\obj\Debug\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸.csproj.CoreCompileInputs.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸\obj\Debug\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸\obj\Debug\不同进化枝突变针对12类抗体的逃逸分布_只算逃不逃逸.pdb

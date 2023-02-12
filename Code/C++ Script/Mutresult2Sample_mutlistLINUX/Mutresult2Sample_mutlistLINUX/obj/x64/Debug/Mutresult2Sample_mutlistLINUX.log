@@ -1,0 +1,25 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: 中间目录(C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\obj\x64\Debug\)包含从另一个项目(Mutresult2Sample_mutlistLINUX.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(30,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(33,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(27,12): warning : unused variable ‘j’ [-Wunused-variable]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(27,15): warning : unused variable ‘k’ [-Wunused-variable]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(56,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(57,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(103,12): warning : suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(106,12): warning : suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(109,12): warning : suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(112,12): warning : suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(115,12): warning : suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(118,12): warning : suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(137,47): warning : conversion from ‘std::vector<Sample>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(141,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::thread>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(137,21): warning : unused variable ‘index’ [-Wunused-variable]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(164,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::thread>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(166,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Sample>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(170,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\main.cpp(83,15): warning : unused variable ‘k’ [-Wunused-variable]
+  正在链接对象
+  Mutresult2Sample_mutlistLINUX.vcxproj -> C:\Users\lilab\OneDrive\BIG\程序\变异位点\Mutresult2Sample_mutlistLINUX\Mutresult2Sample_mutlistLINUX\bin\x64\Debug\Mut5col2Sample_mutlistLINUX.out

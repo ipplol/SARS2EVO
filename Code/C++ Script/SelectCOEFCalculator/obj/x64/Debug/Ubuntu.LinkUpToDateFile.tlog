@@ -1,0 +1,1 @@
+g++ -o "/mnt/g/VariationMutation/VirusAntibodyEscape/Fitness/SelectiveCoEfficient/SelectCOEFCalculator/bin/x64/Debug/SelectCOEFCalculator.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /mnt/g/VariationMutation/VirusAntibodyEscape/Fitness/SelectiveCoEfficient/SelectCOEFCalculator/obj/x64/Debug/main.o

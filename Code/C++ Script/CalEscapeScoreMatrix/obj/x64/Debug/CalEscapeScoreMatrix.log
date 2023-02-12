@@ -1,0 +1,17 @@
+﻿  正在启动远程生成
+  正在编译源:
+  main.cpp
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(30,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(33,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(27,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(27,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(52,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(75,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<std::__cxx11::basic_string<char> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(78,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(80,64): warning : comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(107,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<std::__cxx11::basic_string<char> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(110,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(112,50): warning : comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\main.cpp(46,15): warning : unused variable ‘k’ [-Wunused-variable]
+  正在链接对象
+  CalEscapeScoreMatrix.vcxproj -> G:\VariationMutation\VirusAntibodyEscape\ImmuneBackground\AntibodySpectrum\Script\CalEscapeScoreMatrix\bin\x64\Debug\CalEscapeScoreMatrix.out

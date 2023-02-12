@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <RemoteDebuggerCommandArguments> /mnt/g/VariationMutation/回复突变/iqtreePopulation20221029/Linux/2019-nCoV_total.vcf /mnt/g/VariationMutation/回复突变/iqtreePopulation20221029/Linux</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>LinuxWSLDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

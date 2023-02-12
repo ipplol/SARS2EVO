@@ -1,0 +1,18 @@
+﻿  正在启动远程生成
+  正在编译源:
+  main.cpp
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(56,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(59,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(53,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(53,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(67,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(134,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(117,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(117,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(186,27): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(195,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Antibody>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(226,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<PressureMatrix>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(229,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Antibody>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\main.cpp(250,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<PressureMatrix>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  正在链接对象
+  CalAntibodyPressure.vcxproj -> G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalAntibodyPressure\bin\x64\Debug\CalAntibodyPressure.out

@@ -1,0 +1,6 @@
+Clade	A	B	C	D1	D2	E1	E2.1	E2.2	E3	F1	F2	F3
+WT convalescents,WT vaccinees2BA.1	124	47	102	47	36	16	35	65	62	63	69	12
+WT convalescents,WT vaccinees2BA.2	124	47	102	47	36	16	35	65	62	63	69	12
+WT convalescents,WT vaccinees,BA.1 convalescents2BA.5	161	96	124	102	57	29	114	223	149	165	95	15
+WT convalescents,WT vaccinees,BA.2 convalescents2BA.5	157	83	158	102	51	24	88	197	166	138	95	19
+WT convalescents,WT vaccinees,BA.1 convalescents,BA.2 convalescents2BA.5	194	132	180	157	72	37	167	355	253	240	121	22

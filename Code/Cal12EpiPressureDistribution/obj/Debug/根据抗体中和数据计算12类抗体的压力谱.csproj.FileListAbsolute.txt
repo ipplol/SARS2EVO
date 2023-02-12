@@ -1,0 +1,7 @@
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\根据抗体中和数据计算12类抗体的压力谱\bin\Debug\根据抗体中和数据计算12类抗体的压力谱.exe.config
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\根据抗体中和数据计算12类抗体的压力谱\bin\Debug\根据抗体中和数据计算12类抗体的压力谱.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\根据抗体中和数据计算12类抗体的压力谱\bin\Debug\根据抗体中和数据计算12类抗体的压力谱.pdb
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\根据抗体中和数据计算12类抗体的压力谱\obj\Debug\根据抗体中和数据计算12类抗体的压力谱.csprojAssemblyReference.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\根据抗体中和数据计算12类抗体的压力谱\obj\Debug\根据抗体中和数据计算12类抗体的压力谱.csproj.CoreCompileInputs.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\根据抗体中和数据计算12类抗体的压力谱\obj\Debug\根据抗体中和数据计算12类抗体的压力谱.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\免疫谱突变预测\根据抗体中和数据计算12类抗体的压力谱\obj\Debug\根据抗体中和数据计算12类抗体的压力谱.pdb

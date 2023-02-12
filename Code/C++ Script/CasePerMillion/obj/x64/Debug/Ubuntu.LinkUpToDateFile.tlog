@@ -1,0 +1,1 @@
+g++ -o "/mnt/g/VariationMutation/VirusAntibodyEscape/Fitness/SelectiveCoEfficient/Script/CasePerMillion/bin/x64/Debug/CasePerMillion.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /mnt/g/VariationMutation/VirusAntibodyEscape/Fitness/SelectiveCoEfficient/Script/CasePerMillion/obj/x64/Debug/main.o

@@ -1,0 +1,20 @@
+﻿  正在启动远程生成
+  正在编译源:
+  main.cpp
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(48,16): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(51,16): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(45,9): warning : unused variable ‘j’ [-Wunused-variable]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(45,12): warning : unused variable ‘k’ [-Wunused-variable]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(78,20): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(79,21): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(109,17): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(93,10): warning : unused variable ‘j’ [-Wunused-variable]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(93,13): warning : unused variable ‘k’ [-Wunused-variable]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(170,18): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(188,18): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::thread>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(193,16): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::thread>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(196,16): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Sample>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(199,17): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\main.cpp(142,12): warning : variable ‘k’ set but not used [-Wunused-but-set-variable]
+  正在链接对象
+  Vcf2mut5col.vcxproj -> C:\Users\lilab\OneDrive\BIG\程序\Linux下的C++脚本\Vcf2mut5col\Vcf2mut5col\bin\x64\Debug\Vcf2mut5col.out

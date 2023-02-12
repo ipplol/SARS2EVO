@@ -1,0 +1,1 @@
+g++ -o "/home/mawt/projects/CasePerMillion/bin/x64/Debug/CasePerMillion.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/mawt/projects/CasePerMillion/obj/x64/Debug/main.o

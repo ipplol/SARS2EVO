@@ -1,0 +1,16 @@
+﻿  正在启动远程生成
+  正在编译源:
+  main.cpp
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(59,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(62,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(56,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(56,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(106,47): warning : comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(73,9): warning : unused variable ‘i’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(144,38): warning : comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(154,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<SamplingDate>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(175,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Variant>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(179,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<SamplingDate>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\main.cpp(206,38): warning : comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  正在链接对象
+  CalInfectBackground.vcxproj -> G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\AntibodySpectrum\Script\CalInfectBackground\bin\x64\Debug\CalInfectBackground.out

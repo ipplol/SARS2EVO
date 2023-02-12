@@ -1,0 +1,1 @@
+g++ -o "/home/mawentai/APP/CPlusPlusShell/Mut5col2Sample_mutlistLINUX/bin/x64/Debug/Mut5col2Sample_mutlistLINUX.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -pthread -std=c++11 /home/mawentai/APP/CPlusPlusShell/Mut5col2Sample_mutlistLINUX/obj/x64/Debug/main.o

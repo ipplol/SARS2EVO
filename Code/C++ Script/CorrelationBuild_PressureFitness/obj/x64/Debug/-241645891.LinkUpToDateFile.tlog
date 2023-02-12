@@ -1,0 +1,1 @@
+g++ -o "/home/mawt/projects/CorrelationBuild_PressureFitness/bin/x64/Debug/CorrelationBuild_PressureFitness.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/mawt/projects/CorrelationBuild_PressureFitness/obj/x64/Debug/main.o

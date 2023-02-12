@@ -1,0 +1,14 @@
+﻿  正在启动远程生成
+  正在编译源:
+  main.cpp
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(47,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(50,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(44,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(44,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(58,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(58,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(124,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Day>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(121,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\main.cpp(121,15): warning : unused variable ‘k’ [-Wunused-variable]
+  正在链接对象
+  CasePerMillion.vcxproj -> G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\Script\CasePerMillion\bin\x64\Debug\CasePerMillion.out

@@ -1,0 +1,22 @@
+﻿  正在启动远程生成
+  正在编译源:
+  main.cpp
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(62,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(65,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(59,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(59,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(118,50): warning : comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(124,84): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(124,84): warning : conversion from ‘float’ to ‘int’ may change value [-Wfloat-conversion]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(185,38): warning : comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(193,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Haplotype>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(196,71): warning : conversion from ‘std::vector<SamplingDate>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(196,51): warning : conversion from ‘std::unordered_map<std::__cxx11::basic_string<char>, int>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(205,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(219,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(225,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<SamplingDate>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(228,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(192,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\main.cpp(264,36): warning : comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  正在链接对象
+  HaploCaseCalculator.vcxproj -> G:\VariationMutation\VirusAntibodyEscape\LinuxPipeline\SelectiveCoEfficient\Script\HaploCaseCalculator\bin\x64\Debug\HaploCaseCalculator.out

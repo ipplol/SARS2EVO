@@ -1,0 +1,15 @@
+﻿  正在启动远程生成
+  正在编译源:
+  main.cpp
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(45,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(48,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(42,12): warning : unused variable ‘j’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(42,15): warning : unused variable ‘k’ [-Wunused-variable]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(58,28): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(107,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(116,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Haplotype>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(123,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Haplotype>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(125,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Haplotype>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\main.cpp(139,19): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Haplotype>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  正在链接对象
+  SelectCOEFCalculator.vcxproj -> G:\VariationMutation\VirusAntibodyEscape\Fitness\SelectiveCoEfficient\SelectCOEFCalculator\bin\x64\Debug\SelectCOEFCalculator.out

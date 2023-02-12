@@ -1,0 +1,7 @@
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Lineage路径\还原lineage上下关系\bin\Debug\还原lineage上下关系.exe.config
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Lineage路径\还原lineage上下关系\bin\Debug\还原lineage上下关系.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Lineage路径\还原lineage上下关系\bin\Debug\还原lineage上下关系.pdb
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Lineage路径\还原lineage上下关系\obj\Debug\还原lineage上下关系.csprojAssemblyReference.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Lineage路径\还原lineage上下关系\obj\Debug\还原lineage上下关系.csproj.CoreCompileInputs.cache
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Lineage路径\还原lineage上下关系\obj\Debug\还原lineage上下关系.exe
+C:\Users\lilab\OneDrive\BIG\程序\变异位点\Lineage路径\还原lineage上下关系\obj\Debug\还原lineage上下关系.pdb
