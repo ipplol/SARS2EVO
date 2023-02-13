@@ -19,9 +19,9 @@ namespace SampleMutlist转氨基酸挑Spike
     {
         static void Main(string[] args)
         {
-            string workfold = "***";
+            string workfold = "***";// e.g. "//NAS8500/g/VariationMutation/VirusAntibodyEscape"
             Dictionary<string, MutationAnno> DicMutAnno = new Dictionary<string, MutationAnno>();
-            StreamReader read = new StreamReader("/Data/AllMutationAnnomutresult.tsv");
+            StreamReader read = new StreamReader(workfold + "/Data/AllMutationAnnomutresult.tsv");
             string line = read.ReadLine();
             while(line!=null)
             {
@@ -38,11 +38,11 @@ namespace SampleMutlist转氨基酸挑Spike
             read.Close();
 
             int i, j, k;
-            StreamWriter write = new StreamWriter(workfold + "/sampled_sample_mutlist.transfer.tsv");
+            StreamWriter write = new StreamWriter(workfold + "/Data/sampled_sample_mutlist.transfer.tsv");
             write.Write("Seq\tOriginal\tCount\tSpikeNuc\tCount\tRBDNuc\tCount\tNTDNuc\tCount\tGenomeAA\tCount\tSpikeAA\tCount\tRBDAA\tCount\tNTDAA\tCount\tORF1abAA\tcount\tNGeneAA\tCount\n");
             //write.Write("Seq\tOriginal\tCount\tRBDNuc\tCount\tRBDAA\tCount\n");
 
-            read = new StreamReader(workfold + "/sample_mutlist.tsv");
+            read = new StreamReader(workfold + "/Data/sampled_sample_mutlist.tsv");
             line = read.ReadLine();
             while(line!=null)
             {

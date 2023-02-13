@@ -5,3 +5,10 @@ C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\obj
 C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\obj\x64\Debug\SampleMutlist过滤高质量.csproj.CoreCompileInputs.cache
 C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\obj\x64\Debug\SampleMutlist过滤高质量.exe
 C:\Users\lilab\OneDrive\BIG\程序\变异位点\SampleMutlist过滤高质量\obj\x64\Debug\SampleMutlist过滤高质量.pdb
+G:\VariationMutation\VirusAntibodyEscape\Github\SARS2EVO\Code\SampleMutlistFilterAndRandomPick\bin\x64\Debug\SampleMutlist过滤高质量.exe.config
+G:\VariationMutation\VirusAntibodyEscape\Github\SARS2EVO\Code\SampleMutlistFilterAndRandomPick\bin\x64\Debug\SampleMutlist过滤高质量.exe
+G:\VariationMutation\VirusAntibodyEscape\Github\SARS2EVO\Code\SampleMutlistFilterAndRandomPick\bin\x64\Debug\SampleMutlist过滤高质量.pdb
+G:\VariationMutation\VirusAntibodyEscape\Github\SARS2EVO\Code\SampleMutlistFilterAndRandomPick\obj\x64\Debug\SampleMutlist过滤高质量.csprojAssemblyReference.cache
+G:\VariationMutation\VirusAntibodyEscape\Github\SARS2EVO\Code\SampleMutlistFilterAndRandomPick\obj\x64\Debug\SampleMutlist过滤高质量.csproj.CoreCompileInputs.cache
+G:\VariationMutation\VirusAntibodyEscape\Github\SARS2EVO\Code\SampleMutlistFilterAndRandomPick\obj\x64\Debug\SampleMutlist过滤高质量.exe
+G:\VariationMutation\VirusAntibodyEscape\Github\SARS2EVO\Code\SampleMutlistFilterAndRandomPick\obj\x64\Debug\SampleMutlist过滤高质量.pdb

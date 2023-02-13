@@ -25,7 +25,7 @@ namespace SampleMutlist过滤高质量序列并抽样
     {
         static Dictionary<string, Metadata> Metadata_Dic = new Dictionary<string, Metadata>();
         static List<Sequence> Sequence_List = new List<Sequence>();
-        static string workfold = "***";
+        static string workfold = "***/Data";
         static void ReadinMutlist()
         {
             int i, j, k;
@@ -51,7 +51,6 @@ namespace SampleMutlist过滤高质量序列并抽样
         static void ReadinMetadata()
         {
             int i, j, k;
-            string workfold = "***";
             StreamReader read = new StreamReader(workfold + "/public-latest.metadata.tsv");
             string line = read.ReadLine();
             line = read.ReadLine();
@@ -62,15 +61,15 @@ namespace SampleMutlist过滤高质量序列并抽样
                 //{
                     Metadata newa = new Metadata();
                     newa.CollectionDate = line1[2];
-                    if (line1[10].Split('-').Length == 3)
+                    if (line1[2].Split('-').Length == 3)
                         newa.CollectionMonth = line1[2].Substring(0, 7);
                     else
                         newa.CollectionMonth = "NA";
                     newa.Lineage = line1[8];
                     newa.Location = line1[3];
-                    if(line1[1]!="null" && line1[1] != "NULL" && line1[1] != "" && line1[1] != " ")
+                    if(line1[1]!="null" && line1[1] != "NULL" && line1[1] != "" && line1[1] != " " && !Metadata_Dic.ContainsKey(line1[1]))
                         Metadata_Dic.Add(line1[1], newa);
-                    if (line1[0] != "null" && line1[0] != "NULL" && line1[0] != "" && line1[0] != " ")
+                    if (line1[0] != "null" && line1[0] != "NULL" && line1[0] != "" && line1[0] != " " && !Metadata_Dic.ContainsKey(line1[0]))
                         Metadata_Dic.Add(line1[0], newa);
                 //}
                 line = read.ReadLine();
