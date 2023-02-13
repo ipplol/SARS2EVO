@@ -6,7 +6,7 @@ The code includes python scripts, C++ scripts, and C# scripts. Both Linux and Wi
 
 Most of the scripts are written in Microsoft C# language based on the .net framework, the original code and project files are provided. To run the scripts, [Microsoft Visual Studio](https://visualstudio.microsoft.com/) is needed. The directory of the input and output should be named in the script before hitting the Compile and run button.
 
-# For data collection,
+# Data collection
 
 A total number of 6,484,070 high-quality open-access SARS-CoV-2 sequences and corresponding metadata were downloaded from the [UShER website](http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/UShER_SARS-CoV-2/) on 23 November 2022 as the input. The following files were downloaded and unzipped:
 
