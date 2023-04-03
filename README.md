@@ -157,5 +157,5 @@ And then extract the corresponding data of the target clade into _MutationRoHo.t
 
 The mutation incidence, RoHo, and corresponding escape score and ACE2 binding data were combined manually using [Microsoft Office Excel](https://www.microsoft.com/en-us/microsoft-365/excel). The multivariate linear regression was conducted by the **[R lm](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/lm)** function.
 
-_“lm.sol = lm(EventFraction~ scale(DMSACE) + scale(DMSESC), data = RoHo_WT)”_
+_“lm.sol = lm(scale(EventFraction)~ scale(DMSACE) + scale(DMSESC), data = RoHo_WT)”_
 _“summary(lm.sol)”_
